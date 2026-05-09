@@ -1,0 +1,120 @@
+
+    .video-title{
+        font-family:Roboto;
+        font-size: 20px;
+        font-weight: bold;
+        width: 350px;
+        line-height: 25px;
+        margin-bottom: 3px;
+    }
+    .views{
+        font-family: Arial;
+        font-size: 14px;
+        color: rgb(82, 82, 82);
+        margin-top:0;
+        margin-bottom: 20px;
+    }
+    .name{
+        font-family: arial;
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .video-detail{
+        width: 280px;
+        font-family: Arial;
+        font-size: 14px;
+        color: rgb(82, 82, 82);
+        line-height: 20px;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+
+
+
+    .apple-text{
+        background-color: rgb(227, 65, 64);
+        color: white;
+        font-family: arial;
+        font-size: 14px;
+        text-align: center;
+        padding: 18px;
+        margin-left: 8px; margin-right: 8px;
+        margin-bottom: 14px;
+    
+    }
+    
+    .span-example{
+        cursor: pointer;
+    }
+    .span-example:hover{
+        text-decoration:underline;  
+    }
+
+
+
+
+    .title{
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
+    
+    .beginner{
+        font-family: Arial;
+        font-size: 18px;
+        color: gray;
+        margin-top: 0;
+    }
+    
+    .body{
+        font-family: Arial;
+        font-size: 18px;
+        width: 275px;
+    }
+    
+    button{
+        background-color: green;
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+        width: 120px;
+        border: none;
+    }    
+
+
+
+
+    .price{
+        font-family: Arial;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
+    
+    .profit{
+        font-family: Arial;
+        font-size: 14px;
+        color: green;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    
+    .loss{
+        font-family: Arial;
+        font-size: 14px;
+        color: gray;
+        margin-top: 5px;
+    }
+    
+    .loss-red{
+        color: rgb(192, 7, 7);
+    }
+    
+    .gandu{
+        font-size: 14px;
+        color: gray;
+    }

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube.com Clone</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+    </head>
+    <body >
+
+        
+        <header class="header">
+            <div class="left-section"><img class="hamburger" src="icons/hamburger-menu.svg"><img class="youtube-logo" src="icons/youtube-logo.svg"></div>
+            <div class="middle-section"><input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button" ><img class="search-icon" src="icons/search.svg"><div class="tooltip">Search</div></button>
+                <button class="voice-search-button" ><img class="voice-search-icon" src="icons/voice-search-icon.svg"><div class="tooltip">Search with your Voice</div></button>
+            </div>
+            <div class="right-section">
+                <div class="upload-container"><img class="upload-icon" src="icons/upload.svg"><div class="tooltip">Create</div></div>
+                <div class="youtube-app-container"><img class="youtube-app" src="icons/youtube-apps.svg"><div class="tooltip">Youtube Apps</div></div>
+                <div class="notification-icon-container"><div class="notification-container"><img class="notification-icon" src="icons/notifications.svg"><div class="notification-count">3</div><div class="tooltip">notifications</div></div></div>
+                <img class="myprofil" src="channel-pictures/my-channel.jpg">
+            </div>
+        </header>
+
+
+        <nav class="sidebar">
+            <div class="sidebar-link"><img class="home-icon" src="icons/home.svg"><div>Home</div></div>
+            <div class="sidebar-link"><img class="explore-icon" src="icons/explore.svg"><div>Explore</div></div>
+            <div class="sidebar-link"><img class="subscription-icon" src="icons/subscriptions.svg"><div>Subscriptions</div></div>
+            <div class="sidebar-link"><img class="original-icon" src="icons/originals.svg"><div>Originals</div></div>
+            <div class="sidebar-link"><img class="music-icon" src="icons/youtube-music.svg"><div>Youtube-Music</div></div>
+            <div class="sidebar-link"><img class="library-icon" src="icons/library.svg"><div>Library</div></div>
+        </nav>
+        
+
+        <main>
+        <section class="video-grid">
+            <div class="video-preview">
+            <div class="thumbnail-row"><a href="https://www.youtube.com/watch?v=n2RNcPRtAiY"><img class=thumbnail src="thumbnails/thumbnail-1.webp"></a>
+            <div class="video-time"> 14:20</div></div>
+
+            <div class="video-info-grid"><div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-1.jpeg"></div>
+                <div class="video-info">
+                    <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="video-auther">Marques Brownlee</p>
+                    <p class="video-stats">3.4M views &#183 6 months ago</p>
+                </div>
+            </div>  
+        </div>
+
+
+            <div class="video-preview">
+            <div class="thumbnail-row"><a href="https://www.youtube.com/watch?v=mP0RAo9SKZk"><img class=thumbnail src="thumbnails/thumbnail-2.webp"></a>
+            <div class="video-time"> 8:22</div></div>
+
+            <div class="video-info-grid"><div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-2.jpeg"></div>
+                <div class="video-info">
+                    <p class="video-title">Try Not To Laugh Challenge #9</p>
+                    <p class="video-auther">Markiplier</p>
+                    <p class="video-stats">19M views &#183 2 years ago</p>
+                </div>
+            </div>  
+        </div>
+
+
+            <div class="video-preview">
+            <div class="thumbnail-row"><a href="https://www.youtube.com/watch?v=IWa8XnmKzA0"><img class=thumbnail src="thumbnails/thumbnail-3.webp"></a>
+            <div class="video-time"> 11:32</div></div>
+            
+            <div class="video-info-grid"><div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-3.jpeg"></div>
+                <div class="video-info">
+                    <p class="video-title">Diwali Returns | Ashish Chanchlani</p>
+                    <p class="video-auther">ashish chanchlani vines</p>
+                    <p class="video-stats">56M views &#183 5 years ago</p>
+                </div>
+            </div>  
+        </div>
+
+
+            <div class="video-preview">
+            <div class="thumbnail-row"><a href="https://www.youtube.com/watch?v=094y1Z2wpJg"><img class=thumbnail src="thumbnails/thumbnail-4.webp"></a>
+            <div class="video-time"> 22:09</div></div>
+
+            <div class="video-info-grid"><div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-4.jpeg"></div>
+                <div class="video-info">
+                    <p class="video-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+                    <p class="video-auther">Veritasium</p>
+                    <p class="video-stats">10M views &#183 4 months ago</p>
+                </div>
+            </div>  
+        </div>
+
+
+            <div class="video-preview">
+            <div class="thumbnail-row"><a href="https://www.youtube.com/watch?v=G3e-cpL7ofc"><img class=thumbnail src="thumbnails/thumbnail-5.webp"></a>
+            <div class="video-time"> 6:31:24</div></div>
+
+            <div class="video-info-grid"><div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-5.jpeg"></div>
+                <div class="video-info">
+                    <p class="video-title">HTML & CSS Full Course - Beginner to Pro</p>
+                    <p class="video-auther">SuperSimpleDev</p>
+                    <p class="video-stats">15M views &#183 3 years ago</p>
+                </div>
+            </div>  
+        </div>
+
+
+            <div class="video-preview">
+            <div class="thumbnail-row"><a href="https://www.youtube.com/watch?v=KnZEH3-9pnM"><img class=thumbnail src="thumbnails/thumbnail-6.webp"></a>
+            <div class="video-time"> 16:53</div></div>
+
+            <div class="video-info-grid"><div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-6.jpeg"></div>
+                <div class="video-info">
+                    <p class="video-title">Who is the Strongest Dude?</p>
+                    <p class="video-auther">Dude Perfect</p>
+                    <p class="video-stats">1.6M views &#183 16 Hours ago</p>
+                </div>
+            </div>  
+        </div>
+
+
+            <div class="video-preview">
+            <div class="thumbnail-row"><a href="https://www.youtube.com/watch?v=nGj-4vLMoko"><img class=thumbnail src="thumbnails/thumbnail-7.webp"></a>
+            <div class="video-time"> 14:10</div></div>
+            
+            <div class="video-info-grid"><div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-7.jpg"></div>
+                <div class="video-info">
+                    <p class="video-title">99 Griezmann is BROKEN</p>
+                    <p class="video-auther">More Chuff</p>
+                    <p class="video-stats">248K views &#183 1 day ago</p>
+                </div>
+            </div>  
+        </div>
+
+
+            <div class="video-preview">
+            <div class="thumbnail-row"><a href="https://www.youtube.com/watch?v=zZYp_KzMRdA"><img class=thumbnail src="thumbnails/thumbnail-8.webp"></a>
+            <div class="video-time"> 09:02</div></div>
+            
+            <div class="video-info-grid"><div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-8.jpeg"></div>
+                <div class="video-info">
+                    <p class="video-title">BEST Loadouts You Need For Season 7 (CODM New System!)</p>
+                    <p class="video-auther">Kith</p>
+                    <p class="video-stats">14K views &#183 23 hours ago</p>
+                </div>
+            </div>  
+        </div>
+        
+
+            <div class="video-preview">
+            <div class="thumbnail-row"><a href="https://www.youtube.com/watch?v=DpD-UATWwNA"><img class=thumbnail src="thumbnails/thumbnail-9.webp"></a>
+            <div class="video-time"> 09:07</div></div>
+            
+            <div class="video-info-grid"><div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-9.jpeg"></div>
+                <div class="video-info">
+                    <p class="video-title">The Best Google Pixel Deal Right Now!</p>
+                    <p class="video-auther">TechWiser</p>
+                    <p class="video-stats">700K views &#183 3 months ago</p>
+                </div>
+            </div>  
+        </div>
+
+
+            <div class="video-preview">
+            <div class="thumbnail-row"><a href="https://www.youtube.com/watch?v=D55eZy65-4E"><img class=thumbnail src="thumbnails/thumbnail-10.webp"></a>
+            <div class="video-time"> 36:40</div></div>
+            
+            <div class="video-info-grid"><div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-10.jpeg"></div>
+                <div class="video-info">
+                    <p class="video-title">My CRAZY PREDICTIONS For 2025/26 Football Season!</p>
+                    <p class="video-auther">Markaroni</p>
+                    <p class="video-stats">135K views &#183 2 days ago</p>
+                </div>
+            </div>  
+        </div>        
+
+
+            <div class="video-preview">
+            <div class="thumbnail-row"><a href="https://www.youtube.com/watch?v=VSNWsw_AWGU"><img class=thumbnail src="thumbnails/thumbnail-11.webp"></a>
+            <div class="video-time"> 0:31</div></div>
+            
+            <div class="video-info-grid"><div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-11.jpeg"></div>
+                <div class="video-info">
+                    <p class="video-title">CASIO EDIFICE EFK-100XPB FORGED CARBON</p>
+                    <p class="video-auther">CASIO Japan</p>
+                    <p class="video-stats">88K views &#183 2 months ago</p>
+                </div>
+            </div>  
+        </div>       
+        
+        
+            <div class="video-preview">
+            <div class="thumbnail-row"><a href="https://www.youtube.com/watch?v=9iMGFqMmUFs"><img class=thumbnail src="thumbnails/thumbnail-12.webp"></a>
+            <div class="video-time"> 11:32</div></div>
+            
+            <div class="video-info-grid"><div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-12.jpeg"></div>
+                <div class="video-info">
+                    <p class="video-title">What would happen if you didn't drink water? - mia Nacamulli</p>
+                    <p class="video-auther">TED-Ed</p>
+                    <p class="video-stats">22M views &#183 9 years ago</p>
+                </div>
+
+            <div class="pop-subscriber">
+                <div class="pop-profile"><img class="pop-image" src="channel-pictures/channel-12.jpeg"></div>
+                <div class="pop-info-name"><p>TED Ed</p> <div class="pop-info-count"><p>21.8M subscribers</p></div></div>
+            </div>
+            </div> 
+        </div>   
+        </section>
+        </main>    
+    </body>
+</html>
